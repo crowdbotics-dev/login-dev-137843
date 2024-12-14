@@ -1700,12 +1700,15 @@
     react-native-qrcode-svg "6.1.2"
     react-native-svg "12.3.0"
 
-"@modules/contact-us@file:./modules/contact-us/":
+"@modules/contact-us@file:./modules/contact-us":
   version "1.0.1"
   dependencies:
     "@react-navigation/native" "6.0.8"
     "@react-navigation/native-stack" "6.5.0"
     react-native-screens "3.10.2"
+
+"@modules/fingerprint-authentication@file:./modules/fingerprint-authentication/":
+  version "1.0.0"
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
@@ -7746,6 +7749,11 @@ react-native-svg@12.3.0:
   dependencies:
     css-select "^4.2.1"
     css-tree "^1.0.0-alpha.39"
+
+react-native-touch-id@4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/react-native-touch-id/-/react-native-touch-id-4.4.1.tgz#8b1bb2d04c30bac36bb9696d2d723e719c4a8b08"
+  integrity sha512-1jTl8fC+0fxvqegy/XXTyo6vMvPhjzkoDdaqoYZx0OH8AT250NuXnNPyKktvigIcys3+2acciqOeaCall7lrvg==
 
 react-native-vector-icons@^9.2.0:
   version "9.2.0"
